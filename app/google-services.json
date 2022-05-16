@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "457477898372",
+    "project_id": "otopay-57a59",
+    "storage_bucket": "otopay-57a59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457477898372:android:f7d7b42fe1023efff7c2d1",
+        "android_client_info": {
+          "package_name": "com.damla.otopay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457477898372-6n0igkcqi8lt26nfmhira774th89kb38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgBUK6sIb0m-Q39G-VlW5nZ7_dxQy1rls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457477898372-6n0igkcqi8lt26nfmhira774th89kb38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
