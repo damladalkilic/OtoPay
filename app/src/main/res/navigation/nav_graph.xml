@@ -7,22 +7,45 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.otopay.FirstFragment"
+        android:name="com.damla.otopay.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_DashboardFragment2"
+            app:destination="@id/DashboardFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.otopay.SecondFragment"
+        android:name="com.damla.otopay.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_DashboardFragment"
+            app:destination="@id/DashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DashboardFragment"
+        android:name="com.damla.otopay.DashboardFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_dashboard"/>
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.damla.otopay.Loginfragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_loginfragment">
+        <action
+            android:id="@+id/action_LoginFragment_to_DashboardFragment"
+            app:destination="@id/DashboardFragment" />
     </fragment>
 </navigation>
